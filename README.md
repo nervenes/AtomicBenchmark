@@ -32,7 +32,7 @@ You can run the python script to quickly build and time the runs: ``python3 ./pr
 
 The result on my end:
 ```
-./_cpp/build/Release/_cpp  146,15s user 0,14s system 199% cpu 1:13,40 total
+./_cpp/build/Release/_cpp  129.38s user 0.14s system 199% cpu 1:04.90 total
 ```
 
 ### Rust
@@ -44,7 +44,7 @@ The result on my end:
 
 The result on my end:
 ```
-./_rust/target/release/_rust  132,27s user 0,09s system 194% cpu 1:07,90 total
+./_rust/target/release/_rust  138.07s user 0.13s system 198% cpu 1:09.66 total
 ```
 
 ### Swift
@@ -56,5 +56,5 @@ The result on my end:
 
 The result on my end:
 ```
-./_swift/build/Release/_swift  108,59s user 0,09s system 189% cpu 57,344 total
+./_swift/build/Release/_swift  106.10s user 0.11s system 198% cpu 53.448 total
 ```
