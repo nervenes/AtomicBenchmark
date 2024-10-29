@@ -12,16 +12,16 @@ let counter = Atomic<Int>(0)
 await withTaskGroup(of: Void.self) { group in
     group.addTask {
         var iterations = 10000000000
-        
+
         while iterations != 0 {
             counter.add(1, ordering: .relaxed)
             iterations -= 1
         }
     }
-    
+
     group.addTask {
         var iterations = 10000000000
-        
+
         while iterations != 0 {
             counter.subtract(1, ordering: .relaxed)
             iterations -= 1
