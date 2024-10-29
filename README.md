@@ -5,7 +5,7 @@ Benchmark of 20 billion atomic arithmetics in parallel.
 - **CPU**: Apple Silicon M3
 - **OS**: macOS 15.1
 
-## Benchmark results
+## Benchmark result
 
 | **Language** | **Time** |
 | ------------ | ---------|
