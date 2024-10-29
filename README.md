@@ -5,13 +5,21 @@ Benchmark of 20 billion atomic arithmetics in parallel.
 - **CPU**: Apple Silicon M3
 - **OS**: macOS 15.1
 
-## Benchmark Results
+## Benchmark results
 
-| **Language** | **User time** | **System time** | **CPU utilization** |
-| ------------ | ------------- | --------------- | ------------------- |
-| **Swift**    | 108,59s       | 0,09s           | 189%                |
-| **Rust**     | 132,27s       | 0,09s           | 194%                |
-| **C++**      | 146,15s       | 0,14s           | 199%                |
+| **Language** | **Time** |
+| ------------ | ---------|
+| **Swift**    | 106.10s  |
+| **C++**      | 129.38s  |
+| **Rust**     | 138.07s  |
+
+## Run benchmark
+
+You can run the python script to quickly build and time the runs: ``python3 ./profile.py``
+
+## Prerequisites
+
+- Xcode CLT, quickly install with: ``xcode-select --install``
 
 ---
 
