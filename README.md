@@ -9,7 +9,7 @@ These are the best results each language have had over numerous runs. Ranked fro
 | **Language**    | **User** | **System** | **CPU usage** | **Total** |
 | --------------- | -------- | ---------- | ------------- | --------- |
 | [Swift](#swift) | 64.70s   | 0.06s      | 199%          | 32.388    |
-| [C++](#c++)     | 129.33s  | 0.21s      | 199%          | 1:04.96   |
+| [C++](#cpp)     | 129.33s  | 0.21s      | 199%          | 1:04.96   |
 | [Rust](#rust)   | 138.34s  | 0.12s      | 198%          | 1:09.81   |
 
 > [!NOTE]
@@ -29,7 +29,7 @@ There is a zsh script in the root of the repo that builds each project and then 
 
 ## Compiler information and build instructions
 
-### C++
+### Cpp
 
 **Compiler version**: Apple clang version 16.0.0 (clang-1600.0.26.4)
 
