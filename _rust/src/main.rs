@@ -6,12 +6,12 @@
 //
 
 use std::{
-    sync::atomic::{AtomicI32, Ordering},
+    sync::atomic::{AtomicI64, Ordering},
     thread,
 };
 
 fn main() {
-    static COUNTER: AtomicI32 = AtomicI32::new(0);
+    static COUNTER: AtomicI64 = AtomicI64::new(0);
 
     let add_handle = thread::spawn(move || {
         let mut iterations = 10000000000i64;

@@ -8,7 +8,7 @@
 #include <atomic>
 #include <thread>
 
-std::atomic<int32_t> counter;
+std::atomic<int64_t> counter;
 
 void add() {
     std::int64_t iterations = 10000000000;

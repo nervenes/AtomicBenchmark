@@ -8,9 +8,9 @@ These are the best results each language have had over numerous runs. Ranked fro
 
 | **Language**    | **User** | **System** | **CPU usage** | **Total** |
 | --------------- | -------- | ---------- | ------------- | --------- |
-| [Swift](#swift) | 64.70s   | 0.06s      | 199%          | 32.388    |
-| [C++](#cpp)     | 129.33s  | 0.21s      | 199%          | 1:04.96   |
-| [Rust](#rust)   | 138.34s  | 0.12s      | 198%          | 1:09.81   |
+| [Swift](#swift) | 66,55s   | 0,04s      | 158%          | 41,921    |
+| [Rust](#rust)   | 117,80s  | 0,08s      | 183%          | 1:04,31   |
+| [C++](#cpp)     | 119,43s  | 0,09s      | 195%          | 1:00,99   |
 
 > [!NOTE]
 > These benchmarks was performed on a **Apple Silicon M3** chip in **macOS 15.1**.
@@ -22,7 +22,7 @@ These are the best results each language have had over numerous runs. Ranked fro
 There is a zsh script in the root of the repo that builds each project and then times them.
 
 - Make the script executable: ``chmod +x ./script.sh``
-- Then run it: ``./script.sh``
+- Then run a single benchmark with: ``./script.sh``. You can also pass a number like so ``./script.sh 3`` to run the benchmark 3 times.
 
 > [!NOTE]
 > Xcode CLT is required, install with: ``xcode-select --install``

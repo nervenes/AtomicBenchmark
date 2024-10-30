@@ -7,7 +7,7 @@
 
 import Synchronization
 
-let counter = Atomic<Int32>(0)
+let counter = Atomic<Int64>(0)
 
 await withTaskGroup(of: Void.self) { group in
     group.addTask {
