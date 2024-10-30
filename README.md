@@ -13,13 +13,13 @@ These are the best results each language have had over numerous runs. Ranked fro
 | [Rust](#rust)   | 138.34s  | 0.12s      | 198%          | 1:09.81   |
 
 > [!NOTE]
-> These benchmarks was performed on the **Apple Silicon M3** chip in **macOS 15.1**.
+> These benchmarks was performed on a **Apple Silicon M3** chip in **macOS 15.1**.
 >
 > You can click on the language name to see which compiler and version was used, as well as instructions to build the project and time it.
 
 ### Running the benchmark
 
-I've provided a script to quickly build each project and then time them.
+There is a zsh script in the root of the repo that builds each project and then times them.
 
 - Make the script executable: ``chmod +x ./script.sh``
 - Then run it: ``./script.sh``
